@@ -1,0 +1,142 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'yargs@3.15.0',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.3
+3 info using node@v6.7.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData yargs@3.15.0
+8 silly fetchNamedPackageData yargs
+9 silly mapToRegistry name yargs
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'yargs',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'yargs',
+12 silly mapToRegistry   name: 'yargs',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/yargs
+14 verbose request uri https://registry.npmjs.org/yargs
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 22:29:53
+17 verbose request id 75cee5c576bbd02e
+18 verbose etag "EBQE27G315DNGSJBRRYHB9AZD"
+19 http request GET https://registry.npmjs.org/yargs
+20 http 200 https://registry.npmjs.org/yargs
+21 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+21 verbose headers   etag: '"1W3EVTHR6X48775DLNBDI4GF6"',
+21 verbose headers   'content-type': 'application/json',
+21 verbose headers   'content-encoding': 'gzip',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   'content-length': '41852',
+21 verbose headers   'accept-ranges': 'bytes',
+21 verbose headers   date: 'Wed, 02 Nov 2016 03:29:54 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   age: '81',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-atl6235-ATL',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '2',
+21 verbose headers   'x-timer': 'S1478057394.925075,VS0,VE0',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 200,
+22 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+22 silly get     etag: '"1W3EVTHR6X48775DLNBDI4GF6"',
+22 silly get     'content-type': 'application/json',
+22 silly get     'content-encoding': 'gzip',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'content-length': '41852',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     date: 'Wed, 02 Nov 2016 03:29:54 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     age: '81',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-atl6235-ATL',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '2',
+22 silly get     'x-timer': 'S1478057394.925075,VS0,VE0',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose get saving yargs to C:\Users\vianeee\AppData\Roaming\npm-cache\registry.npmjs.org\yargs\.cache.json
+24 verbose correctMkdir C:\Users\vianeee\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule yargs@3.15.0 checking installable status
+38 silly cache add args [ 'yargs@3.15.0', null ]
+39 verbose cache add spec yargs@3.15.0
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'yargs@3.15.0',
+40 silly cache add   scope: null,
+40 silly cache add   escapedName: 'yargs',
+40 silly cache add   name: 'yargs',
+40 silly cache add   rawSpec: '3.15.0',
+40 silly cache add   spec: '3.15.0',
+40 silly cache add   type: 'version' }
+41 silly addNamed yargs@3.15.0
+42 verbose addNamed "3.15.0" is a plain semver version for yargs
+43 silly mapToRegistry name yargs
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'yargs',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'yargs',
+46 silly mapToRegistry   name: 'yargs',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/yargs
+48 verbose addNameVersion registry:https://registry.npmjs.org/yargs not in flight; fetching
+49 verbose get https://registry.npmjs.org/yargs not expired, no request
+50 silly mapToRegistry name yargs
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'yargs',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'yargs',
+53 silly mapToRegistry   name: 'yargs',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/yargs
+55 verbose addRemoteTarball https://registry.npmjs.org/yargs/-/yargs-3.15.0.tgz not in flight; adding
+56 verbose addRemoteTarball [ 'https://registry.npmjs.org/yargs/-/yargs-3.15.0.tgz',
+56 verbose addRemoteTarball   '3d9446ef21fb3791b3985690662e4b9683c7f181' ]
+57 info retry fetch attempt 1 at 22:29:55
+58 info attempt registry request try #1 at 22:29:55
+59 http fetch GET https://registry.npmjs.org/yargs/-/yargs-3.15.0.tgz
+60 http fetch 200 https://registry.npmjs.org/yargs/-/yargs-3.15.0.tgz
+61 warn retry will retry, error on last attempt: Error: EBUSY: resource busy or locked, rename 'C:\Users\vianeee\AppData\Local\Temp\npm-8636-67388768\registry.npmjs.org\yargs\-\yargs-3.15.0.tgz.3329769581' -> 'C:\Users\vianeee\AppData\Local\Temp\npm-8636-67388768\registry.npmjs.org\yargs\-\yargs-3.15.0.tgz'
+62 verbose stack TypeError: tarball.destroy is not a function
+62 verbose stack     at WriteStreamAtomic.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-remote-tarball.js:97:15)
+62 verbose stack     at emitOne (events.js:101:20)
+62 verbose stack     at WriteStreamAtomic.emit (events.js:188:7)
+62 verbose stack     at WriteStreamAtomic.emit (C:\Program Files\nodejs\node_modules\npm\node_modules\fs-write-stream-atomic\index.js:60:34)
+62 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\fs-write-stream-atomic\index.js:89:19
+62 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+63 verbose cwd C:\Users\vianeee\Documents\narilearsi\CursoNodeUdemy
+64 error Windows_NT 10.0.14393
+65 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "yargs@3.15.0" "--save"
+66 error node v6.7.0
+67 error npm  v3.10.3
+68 error tarball.destroy is not a function
+69 error If you need help, you may report this error at:
+69 error     <https://github.com/npm/npm/issues>
+70 verbose exit [ 1, true ]

@@ -1,10 +1,9 @@
 var request = require('request');
 
-module.exports = function(callback,dataLoc){
-    var loc = dataLoc;
-    var loc = loc.loc.split(",");
-//    callback(loc);
-  var urlApi = 'http://api.openweathermap.org/data/2.5/weather?lat='+ loc[0] +'&lon='+ loc[1] +'&appid=7303cedf9ed553ed4b6f6930f8d3b4fd&units=metric';
+module.exports = function(callback,data){
+  var city = data;
+
+  var urlApi = 'http://api.openweathermap.org/data/2.5/weather?q='+ city +'&appid=7303cedf9ed553ed4b6f6930f8d3b4fd&units=metric';
   //callback(urlApi);
 
   request({
